@@ -1,0 +1,56 @@
+/*!
+Theme Name: HashTank
+Theme URI: https://boomdevs.com
+Author: BoomDevs
+Author URI: https://boomdevs.com
+Description: Tank official WordPress theme.
+Version: 1.0.1
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: tank
+*/
+@media only screen and (max-width: 991px) { 
+    .featured_collect_item .featured_icon {
+        margin: -55px 42px 0 42px !important;
+    }
+    .featured_combine_item .featured_icon {
+        margin: -85px 70px 0 50px !important;
+    }
+    .mobile_fish_sauce_wrapper .fish_sauce img {
+        height: auto !important;
+        margin: 0 auto;
+        width: auto !important;
+    }
+    .twitter_img {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) { 
+    .mobile_fish_sauce_wrapper .fish_sauce img {
+        height: 200px !important;
+        margin: 0 auto;
+        width: auto !important;
+        padding-right: 30px;
+    }
+    .meet_text h2 {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+    .fish_sauce_text h2 {
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 420px) { 
+    .featured_collect_item .featured_icon {
+        margin: -85px 35px 0 22px !important
+    }
+    .featured_combine_item .featured_icon {
+        margin: -100px 35px 0 25px !important;
+    }
+    .featured_combine_item .featured_icon img {
+        width: 18px !important;
+    }
+}
